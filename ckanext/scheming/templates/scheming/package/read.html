@@ -18,6 +18,6 @@
 {% endblock %}
 
 {% block package_additional_info %}
-  {% snippet "scheming/package/snippets/additional_info.html",
+  {% snippet "scheming/package/snippets/additional_info_overwrite.html",
     pkg_dict=pkg, dataset_type=dataset_type, schema=schema %}
 {% endblock %}
